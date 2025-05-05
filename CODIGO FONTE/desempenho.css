@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    height: 100vh;
+    width: 60px;
+    background-color: #5dc9b1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  .sidebar a {
+    color: #000000;
+    text-decoration: none;
+    margin: 20px 0;
+    font-size: 20px;
+    transition: color 0.3s;
+    align-items: center;
+  }
+  
+  .sidebar a:hover {
+    color: #2dbc1a;
+  }
+  .sidebar a img {
+    width: 80%;
+  }
+  .logo{
+    
+
+  }
+  
+  .sidebar a img:hover {
+    transform: scale(1.2);
+  }
+  .dashboard {
+    display: flexbox;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+  }
+
+  .card h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .card .value {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .card canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
